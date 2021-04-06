@@ -6,7 +6,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Please Enter your name");
+            string inp = Console.ReadLine();
+            Console.WriteLine("Welcome " + inp + " to Git Tutorial");
         }
     }
 }
